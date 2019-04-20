@@ -1,0 +1,6 @@
+# tell git to ignore the node_modules directory
+node_modules
+
+# IDE
+.idea/
+.vs/

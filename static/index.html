@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+<div>
+    <canvas id="canv"></canvas>
+</div>
+<div id="app">
+
+    <div class="container">
+        <hr/>
+        <div class="row">
+            <div class="col-sm-8">
+                <town-switcher ref="townSwitcher"></town-switcher>
+            </div>
+            <div class="col-sm-4">
+                <auth ref="auth"></auth>
+            </div>
+        </div>
+        <hr/>
+    </div>
+
+    <div class="container">
+        <router-view></router-view>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<!-- Vendor / 3rd Party Libraries -->
+<script src="js/vendor/vue.2.5.16.js"></script>
+<script src="js/vendor/vue-router.3.0.1.js"></script>
+<script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+<script src="js/vendor/popper.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/font-awesome.5.0.10.js"></script>
+<script src="js/vendor/d3.min.js"></script>
+<script src="js/vendor/d3-time.v1.min.js"></script>
+<script src="js/vendor/d3-time-format.v2.min.js"></script>
+<script src="js/vendor/howler.min.js"></script>
+<script src="js/vendor/moment.min.js"></script>
+
+<!-- Utilities -->
+<script src="js/util/HttpWrapper.js"></script>
+
+<!-- Application -->
+<!-- Basic structure set up -->
+<script src="js/setup.js"></script>
+
+<!-- API Integration -->
+<script src="js/api/Towns.js"></script>
+<script src="js/api/Auth.js"></script>
+<script src="js/api/Forum.js"></script>
+
+<!-- Models -->
+<script src="js/models/Town.js"></script>
+<script src="models/Image.js"></script>
+<script src="models/User.js"></script>
+<script src="models/Post.js"></script>
+
+<!-- Components -->
+<script src="js/components/TownSwitcher.js"></script>
+<script src="js/components/Auth.js"></script>
+<script src="js/components/pages/Landing.js"></script>
+<script src="js/components/pages/Town.js"></script>
+<script src="js/components/pages/TownLanding.js"></script>
+<script src="js/components/pages/TownForum.js"></script>
+<script src="js/components/pages/TownGallery.js"></script>
+<script src="js/components/pages/TownNews.js"></script>
+<script src="js/components/pages/Snowball.js"></script>
+<script src="js/components/pages/TownTransport.js"></script>
+<script src="js/components/pages/TownMusic.js"></script>
+
+<!-- Entry point -->
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
