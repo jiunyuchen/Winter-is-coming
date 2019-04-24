@@ -1,7 +1,9 @@
 README
 ===============
-This is our online platform displaying the most up-to-date information for the St Andrews region.
-It was built as part of our CS5003 'Winter is coming' project practical and in partial completion for the CS5003 module.
+This is an open-ended single-page JavaScript applicaton that would be a community page to a number of towns in the Fife area, with a message board, relevant town informaton such as weather and transport, and other features.
+
+This applicaton uses Node.js with a number of diferent packages while the user interface is built
+using VueJS framework
 
 INSTRUCTIONS
 ---------------
