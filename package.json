@@ -13,7 +13,7 @@
         "fs": "0.0.1-security",
         "jsdoc": "^3.5.5",
         "mocha": "^5.0.5",
-        "moment": "^2.22.1",
+        "moment": "^2.29.4",
         "multer": "^1.3.0",
         "node-fetch": "^2.1.2"
     }
